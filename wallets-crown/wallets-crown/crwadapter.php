@@ -20,13 +20,13 @@
  */
 
 function wallets_multiadapter_coins_filter( $coins ) {
-	$coins['tCRW'] = array( // replace XYZ with the coin's ticker symbol in this line
+	$coins['CRW'] = array( // replace XYZ with the coin's ticker symbol in this line
 
 		// Coin symbol (again)
-		'symbol' => 'tCRW',
+		'symbol' => 'CRW',
 
 		// Coin name
-		'name' => 'tCrown',
+		'name' => 'Crown',
 
 		// Default withdrawal fee (coin adapter settings override this)
 		'wd fee' => '0.005',
@@ -35,10 +35,10 @@ function wallets_multiadapter_coins_filter( $coins ) {
 		'move fee' => '0.0005',
 
 		// Default min confirmation count required for deposits (coin adapter settings override this)
-		'confirms' => 1,
+		'confirms' => 3,
 
 		// Default RPC port (coin adapter settings override this)
-		'port number' => 19341,
+		'port number' => 9341,
 
 		// Whether the wallet supports -walletnotify
 		'tx notify' => 1,
