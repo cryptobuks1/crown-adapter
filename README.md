@@ -1,2 +1,2 @@
-# crown-adapter
-Crown adapter for the Bitcoin and Altcoin Wallets plugin
+# tcrown-adapter
+Crown testnet adapter for the Bitcoin and Altcoin Wallets plugin
